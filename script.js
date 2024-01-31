@@ -29,7 +29,8 @@ let prom = new Promise( (resolve,reject)=>{
  } )
         prom.then((data)=>(console.log(data))).catch((err)=>(console.log(err)))
 
-        document.getElementsByClassName("res").innerTex="Your results are here!!..."
+        let para=document.getElementsByClassName("res").innerTex="Your results are here!!..."
+        console.log(para);
 }        
         
 
